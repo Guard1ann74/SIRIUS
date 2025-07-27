@@ -42,10 +42,6 @@ API_HASH="ВАШ_API_HASH_ЗДЕСЬ"
 CHANNELS_TO_INDEX=["channel1", "channel2"] # Список каналов для мониторинга (укажите точные названия или ID каналов)
 SIMILARITY_THRESHOLD=0.35 # Порог схожести для семантического поиска (значение от 0.0 до 1.0)
 ```
-Где получить данные:
-BOT_TOKEN: Получите у @BotFather в Telegram.
-API_ID и API_HASH: Получите на my.telegram.org.
-
 ### 4. Запуск бота
 ```bash
 python SIRIUS.py
