@@ -28,3 +28,9 @@
 ```bash
 git clone [https://github.com/Guard1ann74/SIRIUS.git](https://github.com/Guard1ann74/SIRIUS.git)
 cd SIRIUS
+```
+
+### 2. Установка зависимостей
+```
+pip install -r requirements.txt
+```
