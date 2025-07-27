@@ -31,6 +31,22 @@ cd SIRIUS
 ```
 
 ### 2. Установка зависимостей
-```
+```bash
 pip install -r requirements.txt
+```
+### 3. Настройка конфигурации
+```
+BOT_TOKEN="ВАШ_BOT_TOKEN_ЗДЕСЬ"
+API_ID=1234567 # Пример: замените на ваш реальный API_ID
+API_HASH="ВАШ_API_HASH_ЗДЕСЬ"
+CHANNELS_TO_INDEX=["channel1", "channel2"] # Список каналов для мониторинга (укажите точные названия или ID каналов)
+SIMILARITY_THRESHOLD=0.35 # Порог схожести для семантического поиска (значение от 0.0 до 1.0)
+```
+Где получить данные:
+BOT_TOKEN: Получите у @BotFather в Telegram.
+API_ID и API_HASH: Получите на my.telegram.org.
+
+### 4. Запуск бота
+```bash
+python SIRIUS.py
 ```
